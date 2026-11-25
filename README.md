@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Wahyu2607">
-  <img src="./assets/terminal-banner.png" alt="Wahyu2607 Pixel Terminal Profile Banner" width="100%" />
+  <img src="./assets/profile_clean.png" alt="Wahyu2607 Pixel Terminal Profile Banner" width="100%" />
 </a>
 
 # `> Wahyu2607`
