@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wahyu2607 // Terminal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <main class="terminal-frame">
+    <!-- Top Terminal Bar -->
+    <header class="terminal-topbar">
+      <div class="win-controls">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="win-title">wahyu2607@github:~/portfolio</div>
+      <div class="win-status">ONLINE</div>
+    </header>
+
+    <!-- Hero Split: Identity & Pixel Portrait -->
+    <section class="hero-grid">
+      <div class="hero-left">
+        <p class="prompt">$ whoami</p>
+        <h1>Wahyu Pamungkas <span class="handle">(@Wahyu2607)</span></h1>
+        <p class="role">
+          Informatics Engineering · Data Science · Machine Learning · Interactive Web Apps
+        </p>
+        <p class="bio">
+          Building end-to-end data science pipelines, predictive modeling workflows,
+          and interactive web dashboards that turn analytical models into practical tools.
+        </p>
+        <div class="cta-row">
+          <a href="https://github.com/Wahyu2607" target="_blank" rel="noreferrer" class="btn primary">[ GitHub ]</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="btn">[ LinkedIn ]</a>
+          <a href="mailto:your-email@example.com" class="btn">[ Email ]</a>
+        </div>
+      </div>
+
+      <aside class="portrait-card">
+        <div class="portrait-meta">
+          <span>SYS.USR: Wahyu2607</span>
+          <span class="ok">LOAD OK</span>
+        </div>
+        <div class="portrait-box">
+          <img src="./assets/profile_clean.png" alt="Wahyu2607 Pixel Terminal Portrait" />
+        </div>
+        <div class="portrait-footer">
+          <span>MODE: PIXEL_MATRIX</span>
+          <span>LOC: JAKARTA, ID</span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section-block">
+      <div class="section-head">
+        <span class="prompt">$ ./projects --featured</span>
+        <span class="meta">4 modules loaded</span>
+      </div>
+
+      <div class="project-list">
+        <article class="project-item">
+          <div class="project-top">
+            <span class="idx">[01]</span>
+            <a href="https://github.com/Wahyu2607/financial-distress-app" target="_blank" rel="noreferrer" class="project-title">
+              financial-distress-app
+            </a>
+            <span class="tag">Streamlit · ML</span>
+          </div>
+          <p class="project-desc">
+            Interactive decision support application predicting financial distress in IDX manufacturing companies
+            by comparing XGBoost on raw financial features against Altman Z''-Score and MDA models.
+          </p>
+          <div class="stack-pills">
+            <span>Python</span>
+            <span>XGBoost</span>
+            <span>Scikit-learn</span>
+            <span>Pandas</span>
+            <span>Plotly</span>
+            <span>Streamlit</span>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-top">
+            <span class="idx">[02]</span>
+            <a href="https://github.com/Wahyu2607" target="_blank" rel="noreferrer" class="project-title">
+              banten-school-analytics
+            </a>
+            <span class="tag">Analytics · XAI</span>
+          </div>
+          <p class="project-desc">
+            Spatial and demographic dashboard evaluating school capacity gaps and classifying educational
+            facility needs across Banten Province using K-Means clustering, SVM, and SHAP explanations.
+          </p>
+          <div class="stack-pills">
+            <span>Python</span>
+            <span>K-Means</span>
+            <span>SVM</span>
+            <span>SHAP</span>
+            <span>NumPy</span>
+            <span>Plotly</span>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-top">
+            <span class="idx">[03]</span>
+            <a href="https://github.com/Wahyu2607" target="_blank" rel="noreferrer" class="project-title">
+              id-food-vision-benchmark
+            </a>
+            <span class="tag">Computer Vision</span>
+          </div>
+          <p class="project-desc">
+            5-fold cross-validation image classification benchmark on Indonesian traditional food and cakes,
+            comparing KNN, SVM, and XGBoost against ResNet50 and Vision Transformer (ViT).
+          </p>
+          <div class="stack-pills">
+            <span>Python</span>
+            <span>ResNet50</span>
+            <span>ViT</span>
+            <span>OpenCV</span>
+            <span>Google Colab</span>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-top">
+            <span class="idx">[04]</span>
+            <a href="https://github.com/Wahyu2607" target="_blank" rel="noreferrer" class="project-title">
+              greenspace-ui-prototype
+            </a>
+            <span class="tag">UI/UX</span>
+          </div>
+          <p class="project-desc">
+            Minimalist plant e-commerce and plant-care application prototype with clean navigation flows
+            and toggleable light/dark interface concepts.
+          </p>
+          <div class="stack-pills">
+            <span>Figma</span>
+            <span>UI/UX Prototyping</span>
+            <span>Design System</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Stack Config -->
+    <section class="section-block">
+      <div class="section-head">
+        <span class="prompt">$ cat stack.conf</span>
+        <span class="meta">config/v1.0</span>
+      </div>
+
+      <div class="config-grid">
+        <div class="config-card">
+          <h3>[languages_and_web]</h3>
+          <p>Python, SQL, JavaScript, Java, HTML/CSS, Streamlit, Plotly, Figma</p>
+        </div>
+        <div class="config-card">
+          <h3>[data_and_ml]</h3>
+          <p>Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Computer Vision, NLP</p>
+        </div>
+        <div class="config-card">
+          <h3>[workflow_and_docs]</h3>
+          <p>Git, GitHub, Google Colab, Microsoft Excel, LaTeX / Overleaf</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="terminal-footer">
+      <span>$ echo "Open to Data Science, ML, IT Programming, Web/Frontend & Data Roles"</span>
+      <span class="cursor">_</span>
+    </footer>
+  </main>
+</body>
+</html>
